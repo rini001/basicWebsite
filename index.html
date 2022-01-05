@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Food Page</title>
+    <style>
+        #navbar-main {
+            background-color: orange;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            position: sticky;
+            top: 0;
+        }
+
+        .navbar-ul {
+            display: flex;
+            text-align: center;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        .page-headings {
+          
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .food-cards{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .food-cards-ind{
+            background-color: orange;
+        }
+        .image-style{
+            width: 200px;
+            height: 200px;
+            margin: 5%;
+        }
+        .food-card-text{
+            text-align: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <nav id="navbar-main">
+        <img src="images/foodblog.jpg" style="width: 5%; margin: 
+        1%; border-radius: 20%; box-shadow: 1px 1 px black;" />
+        <ul class="navbar-ul" style="list-style: none;">
+            <li style="margin-right: 25px;">
+                <a>
+                    <p style="font-size: 25px; color: black;">Home</p>
+                </a>
+            </li>
+            <li style="margin-right: 25px;">
+                <a>
+                    <p style="font-size: 25px; color: black;">Food</p>
+                </a>
+            </li>
+            <li style="margin-right: 25px;">
+                <a>
+                    <p style="font-size: 25px; color: black;">About foodie</p>
+                </a>
+            </li>
+        </ul>
+        <form style="margin-top: 3%; margin-left:50% ;">
+            <input type="text">
+            <button>Search Me</button>
+        </form>
+    </nav>
+    <h2 class="page-headings">Our Favourite Meals</h2>
+    <div class="food-cards">
+        <div class="food-cards-ind">
+            <img class="image-style" src="images/fc1.jpg">
+            <p class="food-card-text">cuisine1</p>
+        </div>
+        <div class="food-cards-ind">
+            <img class="image-style"  src="images/fc2.jpg">
+            <p class="food-card-text">cuisine2</p>
+        </div>
+        <div class="food-cards-ind">
+            <img class="image-style"  src="images/fc3.jpg">
+            <p class="food-card-text">cuisine3</p>
+        </div>
+        <div class="food-cards-ind">
+            <img class="image-style"  src="images/fc4.jpg">
+            <p class="food-card-text">cuisine4</p>
+        </div>
+    </div>
+    <h1 class="page-headings">About Us</h1>
+    <aside style="text-align: center;">
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo quae adipisci blanditiis dicta optio quidem corporis non illum, debitis provident vero maxime reprehenderit, 
+        minima unde ullam excepturi aspernatur doloribus culpa. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam, dolorem sint aspernatur, illo ea pariatur adipisci 
+        facere consectetur laborum ullam molestias
+         tempore debitis repudiandae! Corporis ratione nisi reprehenderit quam fugiat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ducimus, 
+         libero illum numquam inventore dolor sit exercitationem vero animi nisi praesentium natus quis! Nostrum hic consequatur quia aliquid consectetur esse.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat obcaecati repudiandae, explicabo tenetur hic possimus. Laboriosam soluta sit quo numquam pariatur, ut, 
+        quasi ipsum suscipit officia fugiat commodi distinctio? Totam.</p>
+    </aside>
+    <footer>
+        <nav id=""
+    </footer>
+</body>
+
+</html>
